@@ -5,12 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #man{
+            background-color: blueviolet;
+        }
+        h2{
+            background-color: burlywood;
+            font-family:cursive;
+        }
+        button{
+            background-color: aqua;
+        }
+
+        select{
+            background-color: brown;
+        }
+        form{
+            text-decoration: underline;
+            text-transform: capitalize;
+            line-height: 2;
+            font-weight: bold;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
+    <fieldset id="man">
+        <h2>Employee Form</h2>
     <form>
-        <input type="text" name="NAME" placeholder="Enter Your Name"> <br><br>
-        <input type="text" name="department" placeholder="Enter Your Department"> <br><br>
-       Tell Us About yourself: <input type="text" name="discription" minlength="1" maxlength="300"> <br><br>
+        Name:<input type="text" name="NAME" placeholder="Enter Your Name"> <br><br>
+        Department:<input type="text" name="department" placeholder="Enter Your Department"> <br><br>
+       Tell Us About yourself: <textarea name="discription"  cols="15" rows="10"></textarea> <br><br>
        Do you exercise at home? yes<input type="radio" name="yes">
         no<input type="radio" name="yes"> <br><br>
         How do you like to read about your favorite topics? <br>
@@ -26,5 +52,6 @@
 
 
     </form>
+</fieldset>
 </body>
 </html>
